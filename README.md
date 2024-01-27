@@ -33,4 +33,8 @@ En la programación funcional, existen 2 tipos de funciones:
 
 ### Singleton
 
-Patrón creacional que tiene como proposito que solo exista una instancia de un objecto o clase. Se puede utilizar cuando la persistencia de la información de la clase nunca va a cambiar.
+Patrón creacional que tiene como proposito que solo exista una instancia de un objeto o clase. Se puede utilizar cuando la persistencia de la información de la clase nunca va a cambiar.
+
+### Strategy
+
+Patrón que nos ayuda a tener diferentes comportamientos en un objeto e ir agregando nuevos comportamientos sin tener que modificar el contexto inicial (que es el objeto central que unifica todo).
