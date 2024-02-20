@@ -38,3 +38,7 @@ Patrón creacional que tiene como proposito que solo exista una instancia de un 
 ### Strategy
 
 Patrón que nos ayuda a tener diferentes comportamientos en un objeto e ir agregando nuevos comportamientos sin tener que modificar el contexto inicial (que es el objeto central que unifica todo).
+
+### Observer
+
+Patrón de comportamiento. Teniendo un objeto con diferentes estados (propiedades y clases) donde al momento de cambiar algunos de ellos se notifica a un conjunto de "observadores" que están pendiente de realizar alguna tarea en base a ese cambio detectado.
