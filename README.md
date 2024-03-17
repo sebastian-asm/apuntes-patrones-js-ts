@@ -42,3 +42,7 @@ Patrón que nos ayuda a tener diferentes comportamientos en un objeto e ir agreg
 ### Observer
 
 Patrón de comportamiento. Teniendo un objeto con diferentes estados (propiedades y clases) donde al momento de cambiar algunos de ellos se notifica a un conjunto de "observadores" que están pendiente de realizar alguna tarea en base a ese cambio detectado.
+
+### Decorator
+
+Patrón de estructura, nos indica como están estructuradas las clases y como se conforman unas con otras. Nos ayuda cuando se tiene que agregar funcionalidad jerarquíca a muchas clases. Se podría decir que funcionan como "envoltorios" para ir agregando más funcionalidades a otras clases.
