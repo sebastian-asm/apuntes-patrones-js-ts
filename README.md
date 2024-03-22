@@ -50,3 +50,7 @@ Patrón de estructura, nos indica como están estructuradas las clases y como se
 ### Builder
 
 Lo que hace es separar el constructor en un conjunto de métodos encadenados, los cuales se pueden ir invocando según la necesidad de la construcción del objeto. En el contexto de builder, un **Director** (clase que contiene un objeto de tipo builder) es quien ya tiene todos los pasos (como siguiendo los pasos de una receta) listos para aplicar el patrón en un objeto.
+
+### State
+
+Patrón de diseño y de comportamiento, lo que quiere decir que, se mantiene un contexto el cual puede tener un estado establecido, y dependiendo de ese estado tendrá un comportamiento. Se podría decir que es parecido al patrón **Strategy** a diferencia que State puede compartir "conocimiento" entre sus mismas clases, y estas a su vez pueden cambiar el objeto principal.
