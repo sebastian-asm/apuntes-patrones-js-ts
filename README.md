@@ -46,3 +46,7 @@ Patrón de comportamiento. Teniendo un objeto con diferentes estados (propiedade
 ### Decorator
 
 Patrón de estructura, nos indica como están estructuradas las clases y como se conforman unas con otras. Nos ayuda cuando se tiene que agregar funcionalidad jerarquíca a muchas clases. Se podría decir que funcionan como "envoltorios" para ir agregando más funcionalidades a otras clases.
+
+### Builder
+
+Lo que hace es separar el constructor en un conjunto de métodos encadenados, los cuales se pueden ir invocando según la necesidad de la construcción del objeto. En el contexto de builder, un **Director** (clase que contiene un objeto de tipo builder) es quien ya tiene todos los pasos (como siguiendo los pasos de una receta) listos para aplicar el patrón en un objeto.
