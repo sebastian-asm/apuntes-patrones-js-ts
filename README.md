@@ -54,3 +54,7 @@ Lo que hace es separar el constructor en un conjunto de métodos encadenados, lo
 ### State
 
 Patrón de diseño y de comportamiento, lo que quiere decir que, se mantiene un contexto el cual puede tener un estado establecido, y dependiendo de ese estado tendrá un comportamiento. Se podría decir que es parecido al patrón **Strategy** a diferencia que State puede compartir "conocimiento" entre sus mismas clases, y estas a su vez pueden cambiar el objeto principal.
+
+### Bridge
+
+Patrón de diseño estructural que cumple la función de _puente_, separando la implementación de una clase en diferentes abstracciones, para ir escalando en funcionalidades.
